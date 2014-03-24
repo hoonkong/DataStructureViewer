@@ -31,15 +31,17 @@
 			.clr {
 				clear: both;
 			}
-			#canvas {
-				border: 1px solid #000;
+			#svgPanel {
+				border: 1px solid #d4d4d4;
 			}
 		</style>
 	</head>
 	<body>
 		<div id="content"></div>
 
-		<canvas width="1000" height="500" id="canvas"></canvas>
+		<svg width="1000" height="500" id="svgPanel">
+			<circle cx="60" cy="60" r="10" style="fill: yellow; stroke: blue; stroke-width: 1px;"/>
+		</svg>
 
 		<div id="output"></div>
 		
